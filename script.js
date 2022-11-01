@@ -3,15 +3,15 @@ const newY = document.getElementById('new-y')
 const form = document.getElementById('form')
 
 function updateCoords() {
-    oldX = document.getElementById('old-x')
-    oldY = document.getElementById('old-y')
-    netherBool = document.getElementById('nether').checked
-    netherStr = netherBool ? 'nether' : ''
+    let oldX = document.getElementById('old-x')
+    let oldY = document.getElementById('old-y')
+    let netherBool = document.getElementById('nether').checked
+    let netherStr = netherBool ? 'nether' : ''
 
     newX.innerText = Math.floor(oldX.value*6.4)
     newY.innerText = `${Math.floor(oldY.value*6.4)} ${netherStr}`
 
-    travelLink = document.getElementById('travel-link')
+    let travelLink = document.getElementById('travel-link')
 
     travelLink.href = `https://pixels.land/${netherStr}@${newX.innerText},${newY.innerText}`
 
