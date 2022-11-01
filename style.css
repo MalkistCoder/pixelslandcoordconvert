@@ -65,10 +65,14 @@ input {
     font-weight: bold;
 }
 
-a {
+a:link, a:visited {
     color: white;
 }
 
 a:hover {
     color: lightgray;
+}
+
+a:active {
+    color: gray;
 }
