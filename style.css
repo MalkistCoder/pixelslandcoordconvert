@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://db.onlinewebfonts.com/c/b2e75c336df191233b3096682c9ee6be?family=PixelarRegularW01-Regular');
+
+body {
+    font-family: "PixelarRegularW01-Regular", sans-serif;
+    font-size: 30px;
+    background-color: #F29F52;
+    color: black;
+    text-align: center;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Ehoundstooth%3C/title%3E%3Cg fill='%236666ba' fill-opacity='0.6' fill-rule='evenodd'%3E%3Cpath d='M0 18h6l6-6v6h6l-6 6H0M24 18v6h-6M24 0l-6 6h-6l6-6M12 0v6L0 18v-6l6-6H0V0'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+input {
+    font-family: "PixelarRegularW01-Regular", sans-serif;
+    font-size: 30px;
+    width: 75px;
+}
+
+.main-header {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    background-color: #6666BA;
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 64px;
+    font-weight: bold;
+    border-style: double;
+    border-width: 12.5px;
+    border-radius: 12.5px;
+}
+
+.main-body {
+    background-color: #F29F52;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: -15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    border-radius: 10px
+}
+
+.coords-heading {
+    font-family: 'VT323', monospace;
+    font-size: 52px;
+}
+
+.old-coords, .new-coords {
+    padding: 10px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+    border-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #6666BA;
+    color: white;
+}
+
+.coords-display-heading {
+    font-weight: bold;
+}
+
+a#travel-link {
+    color: white;
+}
+
+a#travel-link:hover {
+    color: lightgray;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Pixels.Land Coords Converter</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <h1 class="main-header">Pixels.land Coordinates Converter</h1>
+        <div class="main-body">
+            <h2 class="coords-heading">Old Coordinates</h2>
+            <form class="old-coords" id="form" onchange="updateCoords();">
+                <label class="coords-display-heading" for="old-x">X: </label>
+                <input id="old-x" type="number" name="old-x" value="0" max="1000" min="-1000">
+                <label class="coords-display-heading" for="old-y">Y: </label>
+                <input id="old-y" type="number" name="old-y" value="0" max="1000" min="-1000">
+                <br>
+                <label for="nether">Nether?</label>
+                <input type="checkbox" id="nether" name="nether" value="nether">
+            </form>
+            <h2 class="coords-heading">New Coordinates</h2>
+            <div class="new-coords">
+                <span class="coords-display-heading">X: </span>
+                <span class="coords-display" id="new-x">0</span>
+                <span class="coords-display-heading"> Y: </span>
+                <span class="coords-display" id="new-y">0</span>
+                <br>
+                <span><a id="travel-link" href="https://pixels.land/@0,0" target="_blank">Travel there!</a></span>
+            </div>
+        </div>
+    </body>
+</html>
