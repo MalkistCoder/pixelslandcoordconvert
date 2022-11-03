@@ -13,7 +13,7 @@ function updateCoords() {
 
     let travelLink = document.getElementById('travel-link')
 
-    travelLink.href = `https://pixels.land/${netherStr}@${newX.innerText},${newY.innerText}`
+    travelLink.href = `https://pixel.land/${netherStr}@${newX.innerText},${newY.innerText}`
 
     if (netherBool) {
         oldX.max = 200
